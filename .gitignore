@@ -134,3 +134,31 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Frontend (React + TypeScript)
+node_modules/
+dist/
+build/
+*.log
+*.env
+
+# Backend (.NET)
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+*.cache
+*.log
+*.pdb
+*.user
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+Thumbs.db
+.DS_Store
