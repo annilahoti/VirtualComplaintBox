@@ -1,0 +1,6 @@
+@UBTComplaintBox.API_HostAddress = http://localhost:5075
+
+GET {{UBTComplaintBox.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
